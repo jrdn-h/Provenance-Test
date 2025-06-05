@@ -1,0 +1,9 @@
+id,snippet,label,loan_doc_id,metadata
+1,"The borrower shall maintain a minimum DSCR of 1.25x throughout the loan term.","LoanDoc",TS_2025-001.pdf,"file:TermSheet_ABC.pdf; page:3; bbox:[150,230,550,270]"
+2,"Subject property appraised at $5.8M as of February 15, 2023, using the income approach.","LoanDoc",APP_2025-001.pdf,"file:Appraisal_DEF.pdf; page:12; bbox:[100,420,500,470]"
+3,"The 100-unit multifamily property is located in a high-growth suburban market, with average occupancy at 95%.","LoanDoc",OM_SterlingPlaza.pdf,"file:OM_XYZ.pdf; page:5; bbox:[120,300,540,350]"
+4,"A cap rate is used to indicate the rate of return that is expected to be generated on a real estate investment property.","PublicWeb",,"url:https://www.investopedia.com/terms/c/capitalizationrate.asp; crawl_date:2025-06-01"
+5,"The appraisal process typically includes a site inspection, comparable sales analysis, and income capitalization.","PublicWeb",,"url:https://www.hud.gov/program_offices/housing/appraisal_guidelines; crawl_date:2025-06-01"
+6,"You can estimate a home's market value by comparing it to recent sales of similar homes in your neighborhood.","PublicWeb",,"url:https://www.zillow.com/learn/how-to-estimate-home-value/; crawl_date:2025-06-01"
+7,"The loan requires a 1.25x DSCR, and the cap rate must exceed 5.5%, blending standard underwriting from term sheets with market metrics.","Synthesised",,"source1_id:1; source2_id:4"
+8,"Unlike traditional home values, appraised CRE value considers future NOI, as emphasized in appraisals and HUD valuation guidance.","Synthesised",,"source1_id:2; source2_id:5"

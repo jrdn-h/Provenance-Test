@@ -1,0 +1,89 @@
+id,prompt_variant,ground_truth,predicted,confidence,loan_doc_pred,raw_response
+1,zeroshot,LoanDoc,LoanDoc,85,TS_2025-001.pdf,"{
+  ""class"": ""LoanDoc"",
+  ""confidence"": 85,
+  ""loan_doc_id"": ""TS_2025-001.pdf""
+}"
+1,fewshot,LoanDoc,LoanDoc,90,TS_2025-001.pdf,"{""class"":""LoanDoc"",""confidence"":90,""loan_doc_id"":""TS_2025-001.pdf""}"
+1,cot,LoanDoc,LoanDoc,85,TS_2025-001.pdf,"{
+  ""class"": ""LoanDoc"",
+  ""confidence"": 85,
+  ""loan_doc_id"": ""TS_2025-001.pdf""
+}"
+2,zeroshot,LoanDoc,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+2,fewshot,LoanDoc,LoanDoc,92,APP_2025-001.pdf,"{""class"":""LoanDoc"",""confidence"":92,""loan_doc_id"":""APP_2025-001.pdf""}"
+2,cot,LoanDoc,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+3,zeroshot,LoanDoc,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+3,fewshot,LoanDoc,PublicWeb,85,,"{""class"":""PublicWeb"",""confidence"":85,""loan_doc_id"":""""}"
+3,cot,LoanDoc,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+4,zeroshot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+4,fewshot,PublicWeb,PublicWeb,85,,"{""class"":""PublicWeb"",""confidence"":85,""loan_doc_id"":""""}"
+4,cot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": """"
+}"
+5,zeroshot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+5,fewshot,PublicWeb,PublicWeb,85,,"{""class"":""PublicWeb"",""confidence"":85,""loan_doc_id"":""""}"
+5,cot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+6,zeroshot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+6,fewshot,PublicWeb,PublicWeb,85,,"{""class"":""PublicWeb"",""confidence"":85,""loan_doc_id"":""""}"
+6,cot,PublicWeb,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+7,zeroshot,Synthesised,Synthesised,85,,"{
+  ""class"": ""Synthesised"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+7,fewshot,Synthesised,Synthesised,80,,"{""class"":""Synthesised"",""confidence"":80,""loan_doc_id"":""""}"
+7,cot,Synthesised,Synthesised,85,,"{
+  ""class"": ""Synthesised"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+8,zeroshot,Synthesised,Synthesised,85,,"{
+  ""class"": ""Synthesised"",
+  ""confidence"": 85,
+  ""loan_doc_id"": null
+}"
+8,fewshot,Synthesised,Synthesised,80,,"{""class"":""Synthesised"",""confidence"":80,""loan_doc_id"":""""}"
+8,cot,Synthesised,PublicWeb,85,,"{
+  ""class"": ""PublicWeb"",
+  ""confidence"": 85,
+  ""loan_doc_id"": """"
+}"
